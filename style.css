@@ -7,6 +7,81 @@ html,
 body {
   margin: 0;
   padding: 0;
+  font-size: 18px;
+  height: 100%;
 }
 
 /* Add styles here! */
+
+header {
+  width: 100%;
+  margin-top: 144px;
+  margin-bottom: 80px;
+}
+
+.max-width-wrapper {
+  width: 300px;
+  margin: 0 auto;
+}
+
+.intro-chunk {
+  width: 320px;
+  padding: 24px;
+}
+
+.title {
+
+}
+
+header p {
+
+}
+
+header strong {
+  color: hsl(160deg, 100%, 30%);
+
+}
+
+/* bottom section */
+
+main {
+  border-top: 4px solid hsl(0deg, 0%, 40%);
+  background-color: hsl(0deg, 0%, 60%);
+  height: fit-content;
+}
+
+.card {
+  width: 600px;
+  border-bottom: 4px solid hsl(0deg, 0%, 40%);
+  margin-top: 56px;
+  margin-bottom: 56px;
+  padding: 24px;
+  background-color: hsl(0deg, 0%, 100%);
+}
+
+.indented-heading {
+  background-color: hsl(45deg, 100%, 50%);
+  padding: 24px 24px 24px 34px;
+  border-bottom: 5px solid hsl(45deg, 100%, 40%);
+  width: max-content;
+  margin-left: -32px;
+  margin-top: -16px;
+}
+
+/* Primary (green):
+
+- `hsl(160deg, 100%, 30%)`
+
+Secondary (gold):
+
+- `hsl(45deg, 100%, 50%)` (lighter)
+- `hsl(45deg, 100%, 40%)` (darker)
+
+Grays:
+
+- `hsl(0deg, 0%, 0%)` (black)
+- `hsl(0deg, 0%, 10%)` (very dark)
+- `hsl(0deg, 0%, 30%)` (dark)
+- `hsl(0deg, 0%, 40%)` (medium)
+- `hsl(0deg, 0%, 60%)` (light)
+- `hsl(0deg, 0%, 100%)` (white) */
