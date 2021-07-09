@@ -52,8 +52,6 @@ main {
 .card {
   width: 600px;
   border-bottom: 4px solid hsl(0deg, 0%, 40%);
-  margin-top: 56px;
-  margin-bottom: 56px;
   padding: 24px;
   background-color: hsl(0deg, 0%, 100%);
 }
